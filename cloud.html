@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Technologies | Trending</title>
+        
+        <style>
+        
+        
+        body{
+    font:20px/2 Arial, Helvatica ,sans-serif;
+    padding: 0;
+    margin: 0;
+    /*background-color: #f4f4f4;*/
+}
+
+.container{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px
+}
+
+/*header*/
+header{
+    background: #909030;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-style:solid;
+    border-color: orangered;
+    padding-left: 20px;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin:0px;
+}
+
+header nav{
+    float: =right;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+header .highlight , header .current a{
+    color:#108767;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;}
+            
+                
+                
+                .contain {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+    opacity:.4;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.contain:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+      
+.center{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+} 
+.list{
+font-family:georgia;
+}          
+        
+</style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1 id="top"><mark>Tech</mark>nologies</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="trending.html">Trending</a></li>
+                        <li><a href="others.html">Others</a></li>
+                       
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<section>
+        <div class="contain">
+            <h1 style="text-align:center;color:grey;font-size:300%;font-family:cooper;"><ins>Cloud Computing</ins></h1>
+            <img src="./cloud2.jpg" alt="Cloud Computing" class="center" style="width:400px;height=300px;">  
+        <p>Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing.</p>
+        <p>Cloud computing provides a simple way to access servers, storage, databases and a broad set of application services over the Internet. A Cloud services platform owns and maintains the network-connected hardware required for these application services, while you provision and use what you need via a web application.</p>
+        <h3 style="font-family:constantia;font-size:150%;text-align:center"><ins>Deployment Models of Cloud Computing</ins></h3>
+<ol type="i">
+  <li class="list"><b>Private Cloud</b></li>
+   <ul style="list-style-type:disc">
+    <li>Private cloud services are delivered from a business's data center to internal users. This model offers the versatility and convenience of the cloud, while preserving the management, control and security common to local data centers.</li>
+    <li>Common private cloud technologies and vendors include VMware and OpenStack.</li>
+   </ul>
+  <li class="list"><b>Public Cloud</b></li>
+   <ul style="list-style-type:disc">
+    <li>In the public cloud model, a third-party cloud service provider delivers the cloud service over the internet. Public cloud services are sold on demand, customers only pay for the CPU cycles, storage or bandwidth they consume.</li>
+    <li>Leading public cloud service providers include Amazon Web Services (AWS), Microsoft Azure, IBM and Google Cloud Platform.</li>
+   </ul>
+  <li class="list"><b>Hybrid Cloud</b></li>
+   <ul style="list-style-type:disc">
+    <li>A hybrid cloud is a combination of public cloud services and an on-premises private cloud, with orchestration and automation between the two.</li>
+    <li>The goal of a hybrid cloud is to create a unified, automated, scalable environment that takes advantage of all that a public cloud infrastructure can provide, while still maintaining control over mission-critical data.</li>
+   </ul>
+</ol>
+       <h3 style="font-family:constantia;font-size:150%;text-align:center;"><ins>Cloud Computing Services</ins></h3>
+<ol type="a">
+  <li class="list"><b>IaaS(Infrastructure as a Services)</b></li>
+   <ul style="list-style-type:disc">
+    <li>IaaS providers, such as AWS, supply a virtual server instance and storage, as well as APIs that enable users to migrate workloads to a VM. Users have an allocated storage capacity and can start, stop, access and configure the VM and storage as desired.</li>
+    <li>Examples- AWS, Microsoft Azure, Google Compute Engine
+   </ul>
+  <li class="list"><b>PaaS(Platform as a Services)</b></li>
+   <ul style="list-style-type:disc">
+    <li>In the PaaS model, cloud providers host development tools on their infrastructures. Users access these tools over the internet using APIs, web portals or gateway software. PaaS is used for general software development, and many PaaS providers host the software after it's developed.</li>
+    <li>Examples- AWS Elastic, Beanstalk, Google App Engine and Heroku</li>
+   </ul>
+  <li class="list"><b>SaaS(Software as a Services)</b></li>
+   <ul style="list-style-type:disc">
+    <li>SaaS is a distribution model that delivers software applications over the internet; these applications are often called web services. Users can access SaaS applications and services from any location using a computer or mobile device that has internet access.</li>
+    <li>Examples- Salesforce, NetSuite, Concur</li>
+   </ul>
+</ol>
+       <h3 style="font-family:constantia;font-size:150%;text-align:center;"><ins>Benefits of Cloud Computing</ins></h3>
+<ul>
+  <li>~Instead of having to invest heavily in data centers and servers before you know how you are going to use them, you can only pay when you consume computing resources, and only pay for how much you consume.</li>
+  <li>~In a cloud computing environment, new IT resources are only ever a click away, which means you reduce the time it takes to make those resources available to your developers from weeks to just minutes.</li>
+  <li>~Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide a lower latency and better experience for your customers simply and at minimal cost.</li>
+  <li>~Companies can scale up as computing needs increase and scale down again as demands decrease. This eliminates the need for massive investments in local infrastructure, which may or may not remain active.</li>
+</ul> 
+<a href="#top">Go to top</a><br>
+<a href="trending.html">Back</a> 
+</div>
+</section>
+</body>
+</html>
